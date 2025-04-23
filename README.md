@@ -211,6 +211,8 @@ Would you like more details about any of these restaurants?"
 
 ## Future Enhancements
 
+- **Fully Agentic / Voice Ordering**: Enable users to order food via speech commands directly through the agent.
+- **Model Experimentation**: Test and compare different LLMs (text) and ASR/TTS (speech) models for performance and cost.
 - **Real-time Availability**: Connect to a real restaurant management system for actual availability data
 - **User Accounts**: Add user registration and login to save preferences and reservation history
 - **Payment Integration**: Allow users to pay deposits or full amounts through the platform
@@ -218,4 +220,4 @@ Would you like more details about any of these restaurants?"
 - **Group Reservation Coordination**: Facilitate group booking where multiple members can contribute to a reservation
 - **Advanced Recommendations**: Implement a more sophisticated recommendation engine based on user history and preferences
 - **Multilingual Support**: Add support for multiple languages to serve a more diverse user base
-- **Integration with Maps**: Show restaurant locations on an interactive map 
+- **Integration with Maps**: Show restaurant locations on an interactive map
