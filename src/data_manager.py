@@ -225,16 +225,19 @@ class DataManager:
         Returns:
             Dict with reservation details including confirmation status
         """
-        # First check availability
-        availability = self.check_availability(restaurant_name, date, time, party_size)
-        
-        if not availability["available"]:
-            return {
-                "success": False,
-                "message": availability["message"],
-                "restaurant": restaurant_name
-            }
-        
+        # Find the restaurant to confirm details (still needed for capacity check etc. if not checking availability)
+        restaurant = self.find_restaurant_by_name(restaurant_name)
+        if not restaurant:
+             # This case should ideally be caught earlier, but added for safety
+            return {"success": False, "message": f"Restaurant '{restaurant_name}' not found."} 
+
+        # Basic validation (can be expanded)
+        if party_size > restaurant['seating_capacity']:
+             return {
+                 "success": False, 
+                 "message": f"Party size of {party_size} exceeds capacity ({restaurant['seating_capacity']}) for {restaurant_name}."
+             }
+
         # Generate a confirmation code
         confirmation_code = f"RS-{random.randint(10000, 99999)}"
         

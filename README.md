@@ -2,6 +2,8 @@
 
 A full-stack Python application that provides an AI-powered restaurant reservation system using Streamlit for the frontend and Gemini API for conversational AI.
 
+**✨ Live Demo:** [**https://bookfoodiespot.streamlit.app/**](https://bookfoodiespot.streamlit.app/)
+
 ## Challenge Overview
 
 This project demonstrates the implementation of an intelligent AI reservation agent for restaurants. The system allows users to search for restaurants, get information about them, check availability, and make reservations through a natural language conversation interface powered by Gemini's large language model.
