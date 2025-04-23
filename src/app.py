@@ -136,6 +136,8 @@ st.sidebar.info("""
 FoodieSpot is a restaurant reservation system powered by AI.
 This app demonstrates the use of the Gemini API for conversational AI
 with a robust tool calling architecture.
+
+Get your own Gemini API key at [Google AI Studio](https://makersuite.google.com/).
 """)
 
 # Show current date/time for reference

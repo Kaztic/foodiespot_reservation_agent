@@ -11,7 +11,7 @@ This project demonstrates the implementation of an intelligent AI reservation ag
 ### Prerequisites
 
 - Python 3.8+
-- Gemini API key
+- Gemini API key (Get yours at [Google AI Studio](https://makersuite.google.com/))
 - Anaconda or Miniconda (for conda setup)
 
 ### Installation
@@ -34,6 +34,7 @@ This project demonstrates the implementation of an intelligent AI reservation ag
    ```
    GEMINI_API_KEY=your_gemini_api_key_here
    ```
+   *(You can obtain an API key from [Google AI Studio](https://makersuite.google.com/))*.
 
 4. Run the application:
    ```bash
@@ -69,6 +70,7 @@ This project demonstrates the implementation of an intelligent AI reservation ag
    ```
    GEMINI_API_KEY=your_gemini_api_key_here
    ```
+   *(You can obtain an API key from [Google AI Studio](https://makersuite.google.com/))*.
 
 6. Run the application:
    ```bash
