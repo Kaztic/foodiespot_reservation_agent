@@ -1,0 +1,477 @@
+[
+  {
+    "id": 1,
+    "name": "Pasta Paradise",
+    "cuisine": "Italian",
+    "location": "Downtown",
+    "address": "123 Main St",
+    "seating_capacity": 60,
+    "opening_hours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-22:00",
+      "friday": "11:00-23:00",
+      "saturday": "11:00-23:00",
+      "sunday": "12:00-21:00"
+    },
+    "rating": 4.5,
+    "description": "Authentic Italian cuisine with homemade pasta and wood-fired pizzas. Perfect for romantic dinners."
+  },
+  {
+    "id": 2,
+    "name": "Sushi Sensation",
+    "cuisine": "Japanese",
+    "location": "Midtown",
+    "address": "456 Oak Ave",
+    "seating_capacity": 40,
+    "opening_hours": {
+      "monday": "12:00-22:00",
+      "tuesday": "12:00-22:00",
+      "wednesday": "12:00-22:00",
+      "thursday": "12:00-22:00",
+      "friday": "12:00-23:00",
+      "saturday": "12:00-23:00",
+      "sunday": "12:00-21:00"
+    },
+    "rating": 4.7,
+    "description": "Premium sushi and sashimi prepared by master chefs. Elegant atmosphere with traditional Japanese decor."
+  },
+  {
+    "id": 3,
+    "name": "Burger Bliss",
+    "cuisine": "American",
+    "location": "Westside",
+    "address": "789 Elm St",
+    "seating_capacity": 75,
+    "opening_hours": {
+      "monday": "11:00-23:00",
+      "tuesday": "11:00-23:00",
+      "wednesday": "11:00-23:00",
+      "thursday": "11:00-23:00",
+      "friday": "11:00-00:00",
+      "saturday": "11:00-00:00",
+      "sunday": "11:00-22:00"
+    },
+    "rating": 4.2,
+    "description": "Gourmet burgers with creative toppings and craft beers. Casual and family-friendly with outdoor seating."
+  },
+  {
+    "id": 4,
+    "name": "Spice Garden",
+    "cuisine": "Indian",
+    "location": "Eastside",
+    "address": "321 Maple Rd",
+    "seating_capacity": 55,
+    "opening_hours": {
+      "monday": "12:00-22:00",
+      "tuesday": "12:00-22:00",
+      "wednesday": "12:00-22:00",
+      "thursday": "12:00-22:00",
+      "friday": "12:00-23:00",
+      "saturday": "12:00-23:00",
+      "sunday": "12:00-21:00"
+    },
+    "rating": 4.6,
+    "description": "Authentic Indian cuisine with a modern twist. Known for their rich curries and tandoori specialties."
+  },
+  {
+    "id": 5,
+    "name": "Taco Fiesta",
+    "cuisine": "Mexican",
+    "location": "Downtown",
+    "address": "555 Pine St",
+    "seating_capacity": 65,
+    "opening_hours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-22:00",
+      "friday": "11:00-23:00",
+      "saturday": "11:00-23:00",
+      "sunday": "11:00-21:00"
+    },
+    "rating": 4.3,
+    "description": "Vibrant Mexican eatery with street-style tacos and fresh margaritas. Lively atmosphere perfect for groups."
+  },
+  {
+    "id": 6,
+    "name": "Golden Dragon",
+    "cuisine": "Chinese",
+    "location": "Chinatown",
+    "address": "888 Dragon St",
+    "seating_capacity": 100,
+    "opening_hours": {
+      "monday": "11:00-22:30",
+      "tuesday": "11:00-22:30",
+      "wednesday": "11:00-22:30",
+      "thursday": "11:00-22:30",
+      "friday": "11:00-23:30",
+      "saturday": "11:00-23:30",
+      "sunday": "11:00-22:30"
+    },
+    "rating": 4.4,
+    "description": "Traditional Chinese cuisine specializing in dim sum and Cantonese dishes. Great for large family gatherings."
+  },
+  {
+    "id": 7,
+    "name": "Le Petit Bistro",
+    "cuisine": "French",
+    "location": "Arts District",
+    "address": "143 Bordeaux Ave",
+    "seating_capacity": 35,
+    "opening_hours": {
+      "monday": "17:00-22:00",
+      "tuesday": "17:00-22:00",
+      "wednesday": "17:00-22:00",
+      "thursday": "17:00-22:00",
+      "friday": "17:00-23:00",
+      "saturday": "17:00-23:00",
+      "sunday": "17:00-21:00"
+    },
+    "rating": 4.8,
+    "description": "Intimate French bistro with classic dishes and an extensive wine list. Perfect for special occasions."
+  },
+  {
+    "id": 8,
+    "name": "Olive Grove",
+    "cuisine": "Mediterranean",
+    "location": "Harborside",
+    "address": "427 Harbor View",
+    "seating_capacity": 70,
+    "opening_hours": {
+      "monday": "11:30-22:00",
+      "tuesday": "11:30-22:00",
+      "wednesday": "11:30-22:00",
+      "thursday": "11:30-22:00",
+      "friday": "11:30-23:00",
+      "saturday": "11:30-23:00",
+      "sunday": "11:30-21:00"
+    },
+    "rating": 4.5,
+    "description": "Coastal Mediterranean cuisine with fresh seafood and spectacular water views. Open-air dining available."
+  },
+  {
+    "id": 9,
+    "name": "Steakhouse 9",
+    "cuisine": "Steakhouse",
+    "location": "Financial District",
+    "address": "9 Wall St",
+    "seating_capacity": 80,
+    "opening_hours": {
+      "monday": "17:00-22:30",
+      "tuesday": "17:00-22:30",
+      "wednesday": "17:00-22:30",
+      "thursday": "17:00-22:30",
+      "friday": "17:00-23:30",
+      "saturday": "17:00-23:30",
+      "sunday": "16:00-21:30"
+    },
+    "rating": 4.7,
+    "description": "Premium steakhouse with aged cuts and classic cocktails. Upscale atmosphere ideal for business dinners."
+  },
+  {
+    "id": 10,
+    "name": "Green Leaf",
+    "cuisine": "Vegetarian",
+    "location": "University District",
+    "address": "222 College Blvd",
+    "seating_capacity": 45,
+    "opening_hours": {
+      "monday": "08:00-21:00",
+      "tuesday": "08:00-21:00",
+      "wednesday": "08:00-21:00",
+      "thursday": "08:00-21:00",
+      "friday": "08:00-22:00",
+      "saturday": "08:00-22:00",
+      "sunday": "09:00-20:00"
+    },
+    "rating": 4.6,
+    "description": "Creative vegetarian and vegan dishes using local, organic ingredients. Bright, eco-friendly space."
+  },
+  {
+    "id": 11,
+    "name": "Seaside Grill",
+    "cuisine": "Seafood",
+    "location": "Beachfront",
+    "address": "1 Ocean Dr",
+    "seating_capacity": 85,
+    "opening_hours": {
+      "monday": "11:30-22:00",
+      "tuesday": "11:30-22:00",
+      "wednesday": "11:30-22:00",
+      "thursday": "11:30-22:00",
+      "friday": "11:30-23:00",
+      "saturday": "11:30-23:00",
+      "sunday": "11:30-21:30"
+    },
+    "rating": 4.5,
+    "description": "Fresh-caught seafood with beach views. Relaxed atmosphere with outdoor patio perfect for sunset dining."
+  },
+  {
+    "id": 12,
+    "name": "Bangkok Kitchen",
+    "cuisine": "Thai",
+    "location": "Midtown",
+    "address": "567 Spice Lane",
+    "seating_capacity": 50,
+    "opening_hours": {
+      "monday": "11:00-21:30",
+      "tuesday": "11:00-21:30",
+      "wednesday": "11:00-21:30",
+      "thursday": "11:00-21:30",
+      "friday": "11:00-22:30",
+      "saturday": "11:00-22:30",
+      "sunday": "12:00-21:00"
+    },
+    "rating": 4.4,
+    "description": "Authentic Thai dishes with customizable spice levels. Cozy atmosphere with traditional decor."
+  },
+  {
+    "id": 13,
+    "name": "Smoke & Fire BBQ",
+    "cuisine": "Barbecue",
+    "location": "Southside",
+    "address": "789 Smoke St",
+    "seating_capacity": 90,
+    "opening_hours": {
+      "monday": "12:00-22:00",
+      "tuesday": "12:00-22:00",
+      "wednesday": "12:00-22:00",
+      "thursday": "12:00-22:00",
+      "friday": "12:00-23:00",
+      "saturday": "12:00-23:00",
+      "sunday": "12:00-21:00"
+    },
+    "rating": 4.6,
+    "description": "Slow-smoked meats and homestyle sides. Casual, family-friendly spot with live music on weekends."
+  },
+  {
+    "id": 14,
+    "name": "Cafe Milano",
+    "cuisine": "Italian",
+    "location": "Little Italy",
+    "address": "421 Pasta Lane",
+    "seating_capacity": 55,
+    "opening_hours": {
+      "monday": "07:00-22:00",
+      "tuesday": "07:00-22:00",
+      "wednesday": "07:00-22:00",
+      "thursday": "07:00-22:00",
+      "friday": "07:00-23:00",
+      "saturday": "07:00-23:00",
+      "sunday": "08:00-21:00"
+    },
+    "rating": 4.3,
+    "description": "Casual Italian cafe with espresso bar, pastries, and light fare. Popular for breakfast and lunch meetings."
+  },
+  {
+    "id": 15,
+    "name": "Seoul Garden",
+    "cuisine": "Korean",
+    "location": "Koreatown",
+    "address": "333 K-Street",
+    "seating_capacity": 65,
+    "opening_hours": {
+      "monday": "11:30-22:00",
+      "tuesday": "11:30-22:00",
+      "wednesday": "11:30-22:00",
+      "thursday": "11:30-22:00",
+      "friday": "11:30-23:00",
+      "saturday": "11:30-23:00",
+      "sunday": "12:00-22:00"
+    },
+    "rating": 4.7,
+    "description": "Authentic Korean BBQ with tabletop grills. Known for bulgogi and traditional banchan sides."
+  },
+  {
+    "id": 16,
+    "name": "The Hungry Mongoose",
+    "cuisine": "Fusion",
+    "location": "Arts District",
+    "address": "101 Creative Way",
+    "seating_capacity": 45,
+    "opening_hours": {
+      "monday": "17:00-23:00",
+      "tuesday": "17:00-23:00",
+      "wednesday": "17:00-23:00",
+      "thursday": "17:00-23:00",
+      "friday": "17:00-00:00",
+      "saturday": "17:00-00:00",
+      "sunday": "17:00-22:00"
+    },
+    "rating": 4.8,
+    "description": "Innovative fusion cuisine with creative cocktails. Hip atmosphere with rotating local art displays."
+  },
+  {
+    "id": 17,
+    "name": "Taste of Morocco",
+    "cuisine": "Moroccan",
+    "location": "Westside",
+    "address": "789 Sahara Ave",
+    "seating_capacity": 40,
+    "opening_hours": {
+      "monday": "17:00-22:00",
+      "tuesday": "17:00-22:00",
+      "wednesday": "17:00-22:00",
+      "thursday": "17:00-22:00",
+      "friday": "17:00-23:00",
+      "saturday": "17:00-23:00",
+      "sunday": "17:00-21:00"
+    },
+    "rating": 4.5,
+    "description": "Authentic Moroccan cuisine with tagines and couscous dishes. Traditional seating with colorful cushions."
+  },
+  {
+    "id": 18,
+    "name": "Panorama",
+    "cuisine": "International",
+    "location": "Downtown",
+    "address": "100 Sky Tower, 30th Floor",
+    "seating_capacity": 70,
+    "opening_hours": {
+      "monday": "17:00-23:00",
+      "tuesday": "17:00-23:00",
+      "wednesday": "17:00-23:00",
+      "thursday": "17:00-23:00",
+      "friday": "17:00-00:00",
+      "saturday": "17:00-00:00",
+      "sunday": "10:00-22:00"
+    },
+    "rating": 4.9,
+    "description": "Upscale rooftop restaurant with international cuisine and 360-degree city views. Sunday brunch is very popular."
+  },
+  {
+    "id": 19,
+    "name": "Bella Pizza",
+    "cuisine": "Italian",
+    "location": "Eastside",
+    "address": "55 Pizza Way",
+    "seating_capacity": 30,
+    "opening_hours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-22:00",
+      "friday": "11:00-23:00",
+      "saturday": "11:00-23:00",
+      "sunday": "12:00-21:00"
+    },
+    "rating": 4.2,
+    "description": "Neighborhood pizzeria with thin-crust pies and calzones. Casual, kid-friendly environment with arcade games."
+  },
+  {
+    "id": 20,
+    "name": "Noodle House",
+    "cuisine": "Vietnamese",
+    "location": "Little Saigon",
+    "address": "432 Pho St",
+    "seating_capacity": 40,
+    "opening_hours": {
+      "monday": "10:00-21:00",
+      "tuesday": "10:00-21:00",
+      "wednesday": "10:00-21:00",
+      "thursday": "10:00-21:00",
+      "friday": "10:00-22:00",
+      "saturday": "10:00-22:00",
+      "sunday": "10:00-21:00"
+    },
+    "rating": 4.4,
+    "description": "Authentic Vietnamese noodle soups and banh mi sandwiches. Quick service in a simple setting."
+  },
+  {
+    "id": 21,
+    "name": "The Happy Cow",
+    "cuisine": "Farm-to-Table",
+    "location": "Farmland Heights",
+    "address": "500 Rural Route",
+    "seating_capacity": 60,
+    "opening_hours": {
+      "monday": "Closed",
+      "tuesday": "11:00-21:00",
+      "wednesday": "11:00-21:00",
+      "thursday": "11:00-21:00",
+      "friday": "11:00-22:00",
+      "saturday": "09:00-22:00",
+      "sunday": "09:00-20:00"
+    },
+    "rating": 4.7,
+    "description": "Seasonal, locally-sourced ingredients from nearby farms. Rustic farmhouse atmosphere with beautiful garden views."
+  },
+  {
+    "id": 22,
+    "name": "Curry Corner",
+    "cuisine": "Indian",
+    "location": "University District",
+    "address": "222 Spice Blvd",
+    "seating_capacity": 45,
+    "opening_hours": {
+      "monday": "11:30-21:30",
+      "tuesday": "11:30-21:30",
+      "wednesday": "11:30-21:30",
+      "thursday": "11:30-21:30",
+      "friday": "11:30-22:30",
+      "saturday": "11:30-22:30",
+      "sunday": "12:00-21:00"
+    },
+    "rating": 4.3,
+    "description": "Budget-friendly Indian restaurant popular with students. Known for their lunch buffet and butter chicken."
+  },
+  {
+    "id": 23,
+    "name": "Chopsticks",
+    "cuisine": "Chinese",
+    "location": "Midtown",
+    "address": "777 Wok Way",
+    "seating_capacity": 80,
+    "opening_hours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-22:00",
+      "friday": "11:00-23:00",
+      "saturday": "11:00-23:00",
+      "sunday": "12:00-22:00"
+    },
+    "rating": 4.1,
+    "description": "Family-style Chinese dining with large portions meant for sharing. Popular for group dinners and celebrations."
+  },
+  {
+    "id": 24,
+    "name": "The Juicy Patty",
+    "cuisine": "American",
+    "location": "Shopping District",
+    "address": "456 Mall Circle",
+    "seating_capacity": 85,
+    "opening_hours": {
+      "monday": "10:00-21:00",
+      "tuesday": "10:00-21:00",
+      "wednesday": "10:00-21:00",
+      "thursday": "10:00-21:00",
+      "friday": "10:00-22:00",
+      "saturday": "10:00-22:00",
+      "sunday": "11:00-20:00"
+    },
+    "rating": 4.0,
+    "description": "Classic American diner with burgers, shakes, and all-day breakfast. Retro decor with jukebox music."
+  },
+  {
+    "id": 25,
+    "name": "Meze & Wine",
+    "cuisine": "Greek",
+    "location": "Downtown",
+    "address": "321 Acropolis Ave",
+    "seating_capacity": 55,
+    "opening_hours": {
+      "monday": "16:00-22:00",
+      "tuesday": "16:00-22:00",
+      "wednesday": "16:00-22:00",
+      "thursday": "16:00-22:00",
+      "friday": "16:00-23:00",
+      "saturday": "16:00-23:00",
+      "sunday": "16:00-21:00"
+    },
+    "rating": 4.6,
+    "description": "Traditional Greek meze plates and extensive wine selection. Lively atmosphere with occasional live bouzouki music."
+  }
+] 

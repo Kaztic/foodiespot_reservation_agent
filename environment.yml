@@ -1,0 +1,12 @@
+name: foodiespot
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - streamlit
+    - google-generativeai
+    - python-dotenv
+    - pandas 
